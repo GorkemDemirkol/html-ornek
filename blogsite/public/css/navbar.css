@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     width: 100%;
     height: 50px;
     display: flex;
@@ -8,43 +8,50 @@
     background-color: #fff;
     font-size: 1rem;
 }
-.navbar .wrapper{
+
+.navbar .wrapper {
     width: 100%;
     max-width: 1366px;
     display: flex;
 }
-.navbar .left,.navbar .right{
+
+.navbar .left,
+.navbar .right {
     flex: 3;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.navbar .center{
+
+.navbar .center {
     flex: 6;
-    height: 100%;    
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.navbar .right span img{
+
+.navbar .right span img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
 
 }
-.navbar .right .serchEngine{
-    
+
+.navbar .right .serchEngine {
+
     height: 100%;
     width: 70%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
-.navbar .right .serchEngine i{
+
+.navbar .right .serchEngine i {
     position: absolute;
-    
+
     right: 0px;
     width: 30px;
     height: 30px;
@@ -52,9 +59,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    
+
 }
-.navbar .right .serchEngine input{
+
+.navbar .right .serchEngine input {
     width: 90%;
     margin-right: 20px;
     height: 25px;
@@ -64,41 +72,51 @@
     transition: all 0.5s;
 
 }
-.navbar .right .serchEngine{
+
+.navbar .right .serchEngine {
     width: 0px;
     transition: all 0.5s;
 }
-.navbar .right .serchEngine.active{
+
+.navbar .right .serchEngine.active {
     width: 70%;
 }
-.navbar .right .serchEngine.active input{
+
+.navbar .right .serchEngine.active input {
     opacity: 1;
 }
+
 .navbar .wrapper {
     opacity: 0;
     transition: all 0.4s;
     transform: translateY(-10px);
 }
+
 .navbar .wrapper.active {
     opacity: 1;
     transform: translateY(0px);
 }
-.navbar .left i{
+
+.navbar .left i {
     transition: all 0.5s;
     transform: translateY(-120px);
     opacity: 0;
 }
-.navbar .wrapper.active .left i{ 
+
+.navbar .wrapper.active .left i {
     transition: all 0.6s;
     transform: translateX(0px);
     opacity: 1;
 }
-.navbar .wrapper.active .left i:nth-child(2){
-    transition-duration:0.7s ;
+
+.navbar .wrapper.active .left i:nth-child(2) {
+    transition-duration: 0.7s;
 }
-.navbar .wrapper.active .left i:nth-child(3){
-    transition-duration:1s ;
+
+.navbar .wrapper.active .left i:nth-child(3) {
+    transition-duration: 1s;
 }
-.navbar .wrapper.active .left i:nth-child(4){
-    transition-duration:1.5s ;
+
+.navbar .wrapper.active .left i:nth-child(4) {
+    transition-duration: 1.5s;
 }

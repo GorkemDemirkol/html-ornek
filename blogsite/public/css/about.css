@@ -1,0 +1,43 @@
+.about {
+    padding: 0 20px;
+
+}
+
+
+.about .wrapper {
+    width: 100%;
+    max-width: 1366px;
+    margin: 50px auto;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+
+    background-color: aqua;
+}
+
+.about img {
+    border-radius: 20px;
+}
+
+.about .text {
+    font-family: "arvo", serif;
+    line-height: 25px;
+    padding: 10px;
+    flex: 2px;
+}
+
+.about .text h1 {
+    font-family: "Pacifico", cursive;
+    padding: 10px;
+
+}
+
+.about .photo {
+    flex: 2px;
+    
+}
+.about img{
+    object-fit: cover;
+    max-height: 300px;
+}

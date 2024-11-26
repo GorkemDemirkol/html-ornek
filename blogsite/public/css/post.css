@@ -69,6 +69,7 @@
     font-family: "Ubuntu Mono", monospace;
 
 }
+
 /* Buraya scroll Js ini entegre ediyoruz  */
 .posts .post{
     transform: translateX(-20px);
@@ -79,6 +80,16 @@
     transform: translateX(-20px);
     opacity: 0;
     transition: all 1.5s;
+}
+.posts .post:nth-child(3){
+    transform: translateX(-20px);
+    opacity: 0;
+    transition: all 2s;
+}
+.posts .post:nth-child(4){
+    transform: translateX(-20px);
+    opacity: 0;
+    transition: all 2.5s;
 }
 .posts .post.active{
     transform: translateX(0px);
